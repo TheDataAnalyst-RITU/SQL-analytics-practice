@@ -4,6 +4,5 @@ FROM Employee e1
 join Employee e2
 on e1.managerId=e2.id
 group by 1)
-
 select name
 from cte where cnt>=5
