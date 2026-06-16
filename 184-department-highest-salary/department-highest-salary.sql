@@ -6,7 +6,6 @@ from Employee e
 left join Department d
 on e.departmentId=d.id
 )
-
 select Department, name as Employee, salary
 from cte 
 where rnk=1
